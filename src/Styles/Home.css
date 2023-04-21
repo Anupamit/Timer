@@ -1,0 +1,99 @@
+.home {
+  border: 1px solid gray;
+  width: 650px;
+  height: 220px;
+  font-family: Arial, sans-serif;
+}
+.act-icon-img {
+  width: 20px;
+  display: inline;
+  justify-content: space-evenly;
+}
+.stopwatch,
+.timer,
+.btns {
+  border-top: 1px solid gray;
+  margin-top: 10px;
+}
+.tab-li {
+  display: table-cell;
+  line-height: 22.1167px;
+  text-align: center;
+  width: 325px;
+}
+li a {
+  text-decoration: none;
+}
+.timBtn {
+  padding: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: rgb(138, 180, 248);
+}
+.timBtn::after {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-underline-offset: 2px;
+}
+li a span {
+  display: inline;
+}
+.btns span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.1167px;
+  margin-left: 16px;
+  text-align: left;
+}
+.start,
+.reset {
+  color: black;
+  background-color: rgb(138, 180, 248);
+  margin-top: 30px;
+  margin-left: 15px;
+  padding: 6px 8px 5px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(138, 180, 248);
+}
+.start:hover {
+  background-color: #008cba;
+  color: white;
+}
+.reset:hover {
+  background-color: #061b22;
+  color: white;
+}
+.bell {
+  width: 30px;
+  position: fixed;
+  display: inline;
+  margin-top: 25px;
+  margin-left: 400px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  color: rgba(220, 220, 220, 0.824);
+}
+.minutes,
+.seconds {
+  font-size: 40px;
+  margin-left: 15px;
+}
+.display {
+  margin: 20px;
+}
+.timer, .stopwatch {
+  position: relative;
+}
